@@ -1,2 +1,2 @@
 <?php
-echo 'start'
+echo 'start';
