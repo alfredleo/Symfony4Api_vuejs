@@ -6,7 +6,7 @@ use App\Format\JSON;
 use App\Format\XML;
 use App\Format\YAML;
 
-print_r("Interfaces\n\n");;;
+print_r("Interfaces\n\n");
 
 $data = [
     "name" => "John",
@@ -16,7 +16,6 @@ $data = [
 $json = new JSON($data);
 $xml = new XML($data);
 $yml = new YAML($data);
-
 
 
 echo '<pre>';

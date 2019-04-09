@@ -26,8 +26,8 @@
 * Lesson 11. Abstract Classes 00:03:40
 
 * Lesson 12. Interfaces 00:11:16
-    * https://web-techno.net/code-quality-check-tools-php/
-    * https://blog.martinhujer.cz/17-tips-for-using-composer-efficiently/
+    * <https://web-techno.net/code-quality-check-tools-php/>
+    * <https://blog.martinhujer.cz/17-tips-for-using-composer-efficiently/>
     * `composer global require --dev phpstan/phpstan`
     * run `phpstan analyse src/ --level=7` - code 
     * `composer global require "squizlabs/php_codesniffer=*"`
@@ -39,6 +39,7 @@
     * run `phpmetrics --report-html=./log/html-report .`
     * `composer global require phpro/grumphp` - all in one before commit
     * run `grumphp git:init`
+    * `composer global require maglnet/composer-require-checker`
 
 * Lesson 13. Typed Arguments & Function Return Types 00:12:29
 

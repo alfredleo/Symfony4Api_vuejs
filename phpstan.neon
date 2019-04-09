@@ -1,0 +1,7 @@
+parameters:
+    excludes_analyse:
+        - %currentWorkingDirectory%/vendor/*
+        - %currentWorkingDirectory%/tests/*
+        - %currentWorkingDirectory%/log/*
+    autoload_files:
+        - %currentWorkingDirectory%/vendor/autoload.php

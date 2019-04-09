@@ -6,7 +6,7 @@ namespace App\Format;
  * Class XML
  *
  * @category
- * @author   Alfred alfredleo@gmail.com
+ * @author   Alfred <alfredleo@gmail.com>
  * @license  MIT
  * @link     https://github.com/alfredleo
  *

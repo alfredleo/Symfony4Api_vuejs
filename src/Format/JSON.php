@@ -5,7 +5,7 @@ namespace App\Format;
 class JSON extends BaseFormat
 {
     /**
-     * @return string|bool
+     * @return string
      */
     public function convert(): string
     {
