@@ -1,18 +1,28 @@
 <?php
-use App\Format\JSON;
-use App\Format as F;
 
 require __DIR__ . '/../vendor/autoload.php';
-print_r("Namespaces");
+
+use App\Format\JSON;
+use App\Format\XML;
+use App\Format\YAML;
 
 
-$json = new JSON();
-$xml = new \App\Format\XML();
-$yml = new F\YAML();
+print_r("Interfaces\n\n");
+
+$data = [
+    "name" => "John",
+    "surname" => "Doe"
+];
+
+$json = new JSON($data);
+$xml = new XML($data);
+$yml = new YAML($data);
 
 
 
 echo '<pre>';
-var_dump($json);
-var_dump($xml);
-var_dump($yml);
+echo($json);
+echo '<br>';
+echo($xml);
+echo '<br>';
+echo($yml);
