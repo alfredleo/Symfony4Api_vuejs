@@ -4,6 +4,7 @@ namespace App\Format;
 
 /**
  * Class BaseFormat
+ *
  * @package App\Format
  */
 abstract class BaseFormat
@@ -27,7 +28,7 @@ abstract class BaseFormat
     }
 
     /**
-     * @return mixed
+     * @return array
      */
     public function getData(): array
     {
@@ -37,15 +38,13 @@ abstract class BaseFormat
     /**
      * @return string
      */
-    public abstract function convert(): string;
+    abstract public function convert(): string;
 
     /**
-     * @return mixed
+     * @return string
      */
     public function __toString(): string
     {
         return $this->convert();
     }
-
-
 }

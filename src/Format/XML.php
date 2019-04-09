@@ -4,6 +4,7 @@ namespace App\Format;
 
 /**
  * Class XML
+ *
  * @package App\Format
  */
 class XML extends BaseFormat

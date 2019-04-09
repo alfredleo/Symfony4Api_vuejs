@@ -1,8 +1,6 @@
 # PHP Symfony 4 API Platform + React.js Full Stack Masterclass
 
 
-composer require --dev phpstan/phpstan
-
 
 
 * Lesson 1. Introduction 00:06:46
@@ -28,6 +26,13 @@ composer require --dev phpstan/phpstan
 * Lesson 11. Abstract Classes 00:03:40
 
 * Lesson 12. Interfaces 00:11:16
+    * https://web-techno.net/code-quality-check-tools-php/
+    * `composer global require --dev phpstan/phpstan`
+    * `composer global require 'phpmetrics/phpmetrics'`
+    * `composer global require "squizlabs/php_codesniffer=*"`
+    * `composer global require friendsofphp/php-cs-fixer`
+    * `.\vendor\bin\phpstan analyse src/ --level=7`
+    * `php-cs-fixer fix src/`
 
 * Lesson 13. Typed Arguments & Function Return Types 00:12:29
 
