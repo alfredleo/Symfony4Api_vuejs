@@ -10,3 +10,4 @@ themes/classic/views/
 .idea
 vendor
 
+/.php_cs.cache

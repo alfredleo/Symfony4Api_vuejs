@@ -28,10 +28,10 @@
 * Lesson 12. Interfaces 00:11:16
     * https://web-techno.net/code-quality-check-tools-php/
     * `composer global require --dev phpstan/phpstan`
+    * `phpstan analyse src/ --level=7`
     * `composer global require 'phpmetrics/phpmetrics'`
     * `composer global require "squizlabs/php_codesniffer=*"`
     * `composer global require friendsofphp/php-cs-fixer`
-    * `.\vendor\bin\phpstan analyse src/ --level=7`
     * `php-cs-fixer fix src/`
 
 * Lesson 13. Typed Arguments & Function Return Types 00:12:29
