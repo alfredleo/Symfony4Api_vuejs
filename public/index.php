@@ -1,2 +1,3 @@
 <?php
-echo 'start';
+require __DIR__ . '/../vendor/autoload.php';
+print_r("Namespaces");
