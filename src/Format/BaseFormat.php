@@ -21,7 +21,7 @@ abstract class BaseFormat
     /**
      * @param mixed $data
      */
-    public function setData($data)
+    public function setData($data): void
     {
         $this->data = $data;
     }
@@ -29,7 +29,7 @@ abstract class BaseFormat
     /**
      * @return mixed
      */
-    public function getData()
+    public function getData(): array
     {
         return $this->data;
     }
