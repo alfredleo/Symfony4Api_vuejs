@@ -6,8 +6,7 @@ use App\Format\JSON;
 use App\Format\XML;
 use App\Format\YAML;
 
-
-print_r("Interfaces\n\n");
+print_r("Interfaces\n\n");;
 
 $data = [
     "name" => "John",

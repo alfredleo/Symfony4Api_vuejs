@@ -11,3 +11,5 @@ themes/classic/views/
 vendor
 
 /.php_cs.cache
+/html-report/
+log
